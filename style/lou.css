@@ -1,0 +1,60 @@
+﻿#sidebar{
+	width:266px;
+	height:850px;
+	background:#fff;
+	border-right:1px solid #ccc;
+	float:left;
+}
+#sidebar embed{
+	display:block;
+	width:220px;
+	height:200px;
+	margin:0 auto;
+	margin-top:10px;
+}
+#content{
+	width:600px;
+	height:850px;
+	float:right;
+	background:#fff;
+}
+#content h1{
+	background:url(../image/lou.gif)no-repeat;
+	width:127px;
+	height:26px;
+	font-size:100%;
+	text-indent:-9999px;
+	margin-top:20px;
+	margin-left:20px;
+}
+#content dl{
+	width:250px;
+	height:181px;
+	float:left;
+	padding-left:15px;
+	padding-top:10px;
+}
+#content dl dd{
+	width:250px;
+	height:150px;
+	
+}
+#content dl dd img{
+	display:block;
+	width:250px;
+	height:150px;
+}
+#content dl dt{
+	margin:0 auto;
+	width:234px;
+	height:30px;
+	text-align:center;
+	line-height:30px;
+	background:#eee;
+	border-bottom:1px solid #f60;
+}
+#content p{
+	padding-top:50px;
+	text-align:center;
+	clear:both;
+}

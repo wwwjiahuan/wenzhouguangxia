@@ -1,0 +1,50 @@
+﻿#sidebar{
+	width:266px;
+	height:850px;
+	background:#fff;
+	border-right:1px solid #ccc;
+	float:left;
+}
+#sidebar embed{
+	display:block;
+	width:220px;
+	height:200px;
+	margin:0 auto;
+	margin-top:10px;
+}
+#content{
+	width:600px;
+	height:850px;
+	float:right;
+	background:#fff;
+}
+#content h1{
+	background:url(../image/newsc.gif)no-repeat;
+	width:123px;
+	height:27px;
+	font-size:100%;
+	text-indent:-9999px;
+	margin-top:20px;
+	margin-left:20px;
+}
+#content ul{
+	line-height:180%;
+	margin-left:20px;
+	margin-top:10px;
+}
+#content ul li{
+	padding-left:15px;
+	background:url(../image/ico.gif) no-repeat left center;
+}
+#content ul li a{
+	text-decoration:none;
+	color:#06f;
+}
+#content ul li a:hover{
+	color:#f06;
+	text-decoration:underline;
+}
+#content p{
+	margin-top:50px;
+	text-align:center;
+}

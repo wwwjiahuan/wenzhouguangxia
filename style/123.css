@@ -1,0 +1,65 @@
+*{
+    margin:0;
+	padding:0;
+}
+body{
+    background:#BBFFEE;
+	width:875px;
+	margin:0 auto;
+	font-size:13px;
+	color:black;
+}
+ul{
+	list-style-type:none;
+}
+#header{
+	background:black;
+	height:323px;
+	width:873px;
+	border:1px solid black;
+}
+#header embed{
+	display:block;
+	width:873px;
+	height:323px;
+}
+#nav{
+	height:51px;
+	width:873px;
+	border:1px solid black;
+	background:url(../imagesnkbg.jpg);
+}
+#nav ul{
+	font-family:微软雅黑;
+	height:51px;
+	line-height:51px;
+}
+#nav ul li{
+	display:inline;
+	height:51px;
+	width:124px;
+	float:left;
+	text-align:center;
+	background:url(../imagesnkr.gif) no-repeat right center;
+}
+#nav ul li.end{
+	height:51px;
+	width:123px;
+	float:left;
+	background:none;
+}
+#nav ul li a{
+	color:white;
+	display:inline-block;
+	width:124px;
+	text-decoration:none;
+}
+#nav ul li.end a{
+	width:123px;
+}
+#nav ul li a:hover{
+	text-decoration:underline;
+	color:yellow;
+	font-size:14px;
+	font-weight:bold;
+}
